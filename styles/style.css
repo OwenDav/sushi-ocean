@@ -1,0 +1,400 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	color: #565252;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 3%;
+  
+}
+header {
+background-image: url(../images/cooked-foods-858508.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #cccac9;
+	content: "";
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.header-text {
+padding-top: 150px;
+}
+#header-title {
+	display: flex;
+	justify-content: center;
+	margin-left: 8.33%;
+    max-width: 46%;
+    background: #cccac9;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #171717;
+    letter-spacing: 0.179487em;
+    font-size: 3.0vw;
+    line-height: 3.0vw;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+/*#header-buttons1 {
+	margin-top: 70px;
+	margin-left: 8.33%;
+	background: #4c4c4c;
+    padding: 3px;
+    max-width: 20%; 
+    border-radius: 15px;   
+    display: inline-block;
+    border: 3px solid #ff9e44;
+	
+}
+#header-buttons2 {
+	margin-top: 70px;
+	margin-left: 3%;
+	background: #4c4c4c;
+    padding: 3px;
+    max-width: 20%;   
+    border-radius: 15px; 
+	display: inline-block;
+	border: 3px solid white;
+
+}
+*/
+#logo-text {
+float: left;
+
+}
+#logo-img {
+	height: 55px;
+	width: auto;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#main-nav {
+	float: right;
+	list-style: none;
+	font-size: 0.6em;
+}
+#main-nav li {
+	display: inline-block;
+	margin-right: 30px;
+
+}
+#main-nav li a:link,
+#main-nav li a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #171717;
+	letter-spacing: 5px;
+	transition: 0.2s;
+}
+#main-nav li a:hover,
+#main-nav li a:active {
+	color: #ff9e44;
+	transition: 0.1s;
+}
+nav {
+	background: #cccac9;
+	height: 70px;
+	padding: 25px;
+	
+}
+#logo-text a {
+    text-decoration: none;
+	text-transform: uppercase;
+	color: #171717;
+	letter-spacing: 10px;
+	padding-left: 30px;
+}
+.button:link,
+.button:visited {
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+    text-decoration: none;
+    transition: 0.2s
+
+}
+.b-order:link,
+.b-order:visited {
+    margin-top: 70px;
+	margin-left: 8.33%;
+	background: #4c4c4c;
+    padding: 10px;
+    max-width: 20%; 
+    border-radius: 15px;   
+    display: inline-block;
+    border: 3px solid #ff9e44;
+}
+.b-more
+ {
+    margin-top: 70px;
+	margin-left: 3%;
+	background: #4c4c4c;
+    padding: 10px;
+    max-width: 20%;   
+    border-radius: 15px; 
+	display: inline-block;
+	border: 3px solid white;
+}
+.b-order:hover,
+.b-order:active {
+	background: #ff9e44;
+}
+.b-more:hover,
+.b-more:active {
+	border: 3px solid #ff9e44;
+}
+
+section {
+	padding: 100px 0px;
+	clear: both;
+}
+
+#headline-text {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 100%;
+}
+.features-icon {
+	font-size: 200%;
+	color: #cccac9;
+	margin-bottom: 20px;
+	margin-left: 100px;
+
+}
+.col-3 {
+	background: #4c4c4c;
+	color: white;
+
+}
+#none {
+	color: #4c4c4c;
+}
+section p {
+	font-size: 85%;
+}
+
+.images-container {
+	list-style: none;
+	width: 100%;
+
+}
+.images-container li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+.food-img {
+	width: 100%;
+	overflow: hidden;
+    
+    
+}
+.food-img img {
+	width: 100%;
+	height: auto;
+	transform: scale(0.9);
+	border-radius: 15px;
+	transition: 0.3s;
+	opacity: 0.8;
+	
+}
+.food-img img:hover {
+	transform: scale(1);
+	transition: 0.3s;
+	opacity: 1;
+	
+	}
+
+#phone-img {
+  width: 80%;
+	}
+#phone-img-cont {
+margin-left: 5%;
+color: none;
+filter: none;
+transition-duration:none;
+
+
+
+}	
+.order-step {
+	margin-top: 50px;
+	font-size: 30px;
+
+
+}
+.order-step div {
+color: #ff9e44;
+text-align: left;
+display: inline-block;
+font-size: 25px;
+float: left;
+margin-right: 15px;
+}
+
+.order-step p {
+
+}
+.app-but1 img {
+ height: 50px;
+ margin-right: 20px;
+
+}
+.app-but2 img {
+ height: 48px;
+ margin-right: 20px;
+
+}
+.order-step:last-of-type {
+	margin-bottom: 340px;
+}
+
+.centered {
+ display: inline-block;
+ width: 50%;
+ 
+
+}
+.col-4 {
+	margin-right: 0px;
+	filter: grayscale(0.8);
+    margin-left: -20px;
+    transition-duration: 0.3s;
+
+
+}
+.col-4:hover {
+	color: black;
+	filter: grayscale(0);
+	transition-duration: 0.3s;
+
+}
+
+cite {
+	display: block;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	
+	
+}
+cite img {
+	display: inline-block;
+	border-radius: 15px;
+	border: 3px solid #ff9e44;
+	width: 60px;
+
+}
+.comments {
+	background: #cccac9;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 15px 15px 0px 0px;
+
+
+}
+footer {
+	text-align: center;
+    padding: 100px 0;
+    background: #4c4c4c;
+}
+#footer-social {
+	
+	list-style: none;
+	font-size: 0.6em;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+#footer-social li {
+	display: inline-block;
+	margin-right: 30px;
+
+}
+#footer-nav {
+	margin-bottom: 20px;
+}
+#footer-nav li a:link,
+#footer-nav li a:visited,
+#footer-social li a:link,
+#footer-social li a:visited  {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #171717;
+	letter-spacing: 5px;
+	transition: 0.2s;
+	font-size: 100%;
+}
+#footer-nav li a:hover,
+#footer-nav li a:active,
+#footer-social li a:hover,
+#footer-social li a:active {
+	color: #ff9e44;
+	transition: 0.1s;
+}
+ 
+#footer-social li a:link,
+#footer-social li a:visited {
+	font-size: 200%;
+}
+#footer-text {
+	color: #ff9e44;
+	font-size: 15px;
+	}
+
+@media only screen and (max-width: 682px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.button b-order {
+	margin-bottom: 20px;
+}
+}
